@@ -1,12 +1,12 @@
 # 💄 Principia x Creamy x Sallve: interesse de busca por marcas nativas digitais de skincare
 
-Análise exploratória de dados comparando o interesse de busca no Google por três marcas brasileiras de skincare — **Principia, Creamy e Sallve** — ao longo do tempo, considerando evolução temporal, sazonalidade, consultas relacionadas e distribuição regional.
+Análise exploratória de dados comparando o interesse de busca no Google por três marcas brasileiras de skincare, **Principia, Creamy e Sallve** ao longo do tempo, considerando evolução temporal, sazonalidade, consultas relacionadas e distribuição regional.
 
 ## 🎯 Objetivo
 
 Investigar como o interesse de busca por cada marca evoluiu ao longo do período analisado e identificar padrões de sazonalidade, comportamento de busca e diferenças regionais.
 
-> **Importante:** os dados do Google Trends representam interesse relativo de busca, e não faturamento, vendas ou participação de mercado.
+ **Importante:** os dados do Google Trends representam interesse relativo de busca, e não faturamento, vendas ou participação de mercado.
 
 ## 🔎 Perguntas da análise
 
@@ -46,17 +46,6 @@ Dados coletados por exportação manual em CSV:
 * Pandas
 * Matplotlib
 
-## 🔬 Etapas da análise
-
-1. Importação dos dados
-2. Organização e tratamento das colunas
-3. Conversão e padronização das datas
-4. Análise do interesse ao longo do tempo
-5. Análise de sazonalidade
-6. Análise das consultas relacionadas
-7. Comparação regional
-8. Visualização dos resultados
-9. Interpretação dos principais padrões encontrados
 
 ## ⚠️ Ressalvas metodológicas
 
