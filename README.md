@@ -1,14 +1,14 @@
-# 💄 Principia x Creamy x Sallve: interesse de busca por marcas nativas digitais de skincare
+# Principia x Creamy x Sallve: interesse de busca por marcas nativas digitais de skincare
 
 Análise exploratória de dados comparando o interesse de busca no Google por três marcas brasileiras de skincare, **Principia, Creamy e Sallve** ao longo do tempo, considerando evolução temporal, sazonalidade, consultas relacionadas e distribuição regional.
 
-## 🎯 Objetivo
+## Objetivo:
 
 Investigar como o interesse de busca por cada marca evoluiu ao longo do período analisado e identificar padrões de sazonalidade, comportamento de busca e diferenças regionais.
 
  **Importante:** os dados do Google Trends representam interesse relativo de busca, e não faturamento, vendas ou participação de mercado.
 
-## 🔎 Perguntas da análise
+## Perguntas da análise
 
 1. **Como evoluiu o interesse médio nas buscas do Google por Creamy, Principia e Sallve ao longo do período analisado?**
 
@@ -18,7 +18,7 @@ Investigar como o interesse de busca por cada marca evoluiu ao longo do período
 
 4. **Quais regiões do Brasil apresentam maior interesse relativo por cada marca?**
 
-## 📊 Principais insights
+## Principais insights
 
 * **Principia** apresentou o maior nível de interesse relativo entre as três marcas na análise temporal e também liderou a comparação regional nos estados analisados.
 
@@ -30,7 +30,7 @@ Investigar como o interesse de busca por cada marca evoluiu ao longo do período
 
 * As **consultas relacionadas** revelaram diferentes tipos de intenção de busca, incluindo pesquisas sobre produtos e ingredientes, avaliações/opiniões e comparações entre marcas.
 
-## 🗂️ Dados
+## Dados
 
 **Fonte:** Google Trends — Brasil
 
@@ -40,14 +40,14 @@ Dados coletados por exportação manual em CSV:
 * **Consultas relacionadas:** consultas frequentes e em alta para cada marca
 * **Interesse por sub-região:** dados relativos para os estados brasileiros
 
-## 🛠️ Ferramentas
+## Ferramentas
 
 * Python
 * Pandas
 * Matplotlib
 
 
-## ⚠️ Ressalvas metodológicas
+## Ressalvas metodológicas
 
 * O período de **2026 é parcial**, com dados disponíveis até setembro. Comparações envolvendo esse ano devem, portanto, ser interpretadas com cautela.
 
@@ -59,7 +59,7 @@ Dados coletados por exportação manual em CSV:
 
 * O Google Trends não permite, isoladamente, concluir sobre **faturamento, vendas, participação de mercado ou crescimento comercial** das marcas.
 
-## 📌 Tipo de projeto
+## Tipo de projeto
 
 Projeto de estudo de análise exploratória de dados, desenvolvido para investigar comportamento de busca e gerar hipóteses a partir de dados públicos.
 
