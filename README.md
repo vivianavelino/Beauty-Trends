@@ -1,38 +1,67 @@
 # Principia x Creamy x Sallve: interesse de busca por marcas nativas digitais de skincare
 
-Análise exploratória de dados comparando o interesse de busca no Google por três marcas brasileiras de skincare — **Principia**, **Creamy** e **Sallve** ao longo do tempo, por sazonalidade, por tipo de intenção de busca e por região do Brasil.
+Análise exploratória de dados comparando o interesse de busca no Google por três marcas brasileiras de skincare, **Principia, Creamy e Sallve** ao longo do tempo, considerando evolução temporal, sazonalidade, consultas relacionadas e distribuição regional.
 
-## Objetivo
+## Objetivo:
 
-Investigar se o crescimento dessas marcas no Google Trends reflete uma tendência sólida de mercado ou apenas picos pontuais de interesse, e entender como cada marca se posiciona em relação às concorrentes.
+Investigar como o interesse de busca por cada marca evoluiu ao longo do período analisado e identificar padrões de sazonalidade, comportamento de busca e diferenças regionais.
 
-## Perguntas respondidas
+ **Importante:** os dados do Google Trends representam interesse relativo de busca, e não faturamento, vendas ou participação de mercado.
+
+## Perguntas da análise
 
 1. **Como evoluiu o interesse médio nas buscas do Google por Creamy, Principia e Sallve ao longo do período analisado?**
-2. **Existem picos de interesse recorrentes ao longo do ano (sazonalidade), e eles coincidem com datas comerciais como a Black Friday?**
-3. **Quais consultas relacionadas aparecem para cada marca, e o que elas revelam sobre o tipo de busca (produto/ingrediente, opinião pré-compra ou comparação com concorrentes)?**
-4. **Quais regiões possuem maior interesse por cada marca?**
 
-## Principais achados
+2. **Existem picos de interesse recorrentes ao longo do ano e eles coincidem com períodos comerciais, como a Black Friday?**
 
-**Principia** lidera a participação de interesse em todos os estados, cresce de forma contínua ao longo de todo o período analisado e tem foco maior nas regiões Norte e Nordeste. Quase todas as suas consultas relacionadas aparecem como recentes ("Breakout"), reforçando a leitura de uma marca em fase de expansão acelerada.
-**Creamy** cresceu de forma consistente até 2024 e depois estagnou, domina as regiões Sul e Sudeste, e é a única das três sem sinal de dúvida/review nas buscas relacionadas,o que sugere um público mais formado, que já decidiu pela marca.
-**Sallve** é a menor em quase todas as métricas, mas tem um padrão próprio: a participação de interesse é mais concentrada em grandes centros urbanos (Rio de Janeiro, São Paulo e Distrito Federal). Novembro é o mês de maior interesse nas três marcas, provavelmente puxado pela Black Friday.
+3. **Quais consultas relacionadas aparecem para cada marca e o que elas indicam sobre a intenção de busca?**
 
-## Fonte de dados
+4. **Quais regiões do Brasil apresentam maior interesse relativo por cada marca?**
 
-Google Trends (Brasil), coletado via exportação manual de CSV:
-- Interesse ao longo do tempo (semanal, 01/01/2020 a 21/09/2026)
-- Consultas relacionadas (frequentes e em alta) por marca, usando "Termo de pesquisa"
-- Interesse por sub-região (estados do Brasil)
+## Principais insights
+
+* **Principia** apresentou o maior nível de interesse relativo entre as três marcas na análise temporal e também liderou a comparação regional nos estados analisados.
+
+* **Creamy** apresentou crescimento consistente ao longo de boa parte do período, seguido por uma estabilização nos anos mais recentes. Seu interesse relativo foi especialmente relevante nas regiões Sul e Sudeste.
+
+* **Sallve** apresentou níveis de interesse inferiores aos das demais marcas na maior parte das comparações, mas apresentou padrões específicos nas consultas relacionadas e maior destaque relativo em alguns grandes centros urbanos.
+
+* **Novembro apresentou níveis elevados de interesse para as três marcas**, indicando um possível padrão sazonal. A associação com a Black Friday é uma hipótese que pode ser investigada por meio do cruzamento com dados de campanhas ou períodos comerciais.
+
+* As **consultas relacionadas** revelaram diferentes tipos de intenção de busca, incluindo pesquisas sobre produtos e ingredientes, avaliações/opiniões e comparações entre marcas.
+
+## Dados
+
+**Fonte:** Google Trends — Brasil
+
+Dados coletados por exportação manual em CSV:
+
+* **Interesse ao longo do tempo:** dados semanais de 01/01/2020 a 21/09/2026
+* **Consultas relacionadas:** consultas frequentes e em alta para cada marca
+* **Interesse por sub-região:** dados relativos para os estados brasileiros
 
 ## Ferramentas
 
-- Python
-- Pandas
-- Matplotlib
+* Python
+* Pandas
+* Matplotlib
+
 
 ## Ressalvas metodológicas
+
+* O período de **2026 é parcial**, com dados disponíveis até setembro. Comparações envolvendo esse ano devem, portanto, ser interpretadas com cautela.
+
+* A janela de análise foi definida de **01/01/2020 a 21/09/2026**, permitindo comparar períodos equivalentes ao longo dos anos.
+
+* Os dados do Google Trends são **relativos**, variando de acordo com o período, local e termos comparados. Eles não representam volume absoluto de pesquisas.
+
+* Os dados de interesse por sub-região representam o **interesse relativo entre as três marcas dentro de cada estado**, e não o número absoluto de buscas.
+
+* O Google Trends não permite, isoladamente, concluir sobre **faturamento, vendas, participação de mercado ou crescimento comercial** das marcas.
+
+## Tipo de projeto
+
+Projeto de estudo de análise exploratória de dados, desenvolvido para investigar comportamento de busca e gerar hipóteses a partir de dados públicos.
 
 - O período de 2026 é parcial (até setembro), então comparações envolvendo esse ano devem ser lidas com cautela.
 - A janela de coleta foi ajustada para começar em 01/01/2020 (em vez de "últimos 5 anos") para garantir que todos os meses tivessem a mesma quantidade de anos completos na comparação de sazonalidade.
