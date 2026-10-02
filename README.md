@@ -1,4 +1,4 @@
-# Principia x Creamy x Sallve: como marcas nativas digitais estão conquistando o mercado brasileiro de skincare?
+# Principia x Creamy x Sallve: interesse de busca por marcas nativas digitais de skincare
 
 Análise exploratória de dados comparando o interesse de busca no Google por três marcas brasileiras de skincare — **Principia**, **Creamy** e **Sallve** ao longo do tempo, por sazonalidade, por tipo de intenção de busca e por região do Brasil.
 
